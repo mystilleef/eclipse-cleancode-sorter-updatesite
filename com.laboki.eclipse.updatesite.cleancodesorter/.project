@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>com.laboki.eclipse.updatesite.cleancodesorter</name>
+	<comment></comment>
+	<projects>
+		<project>com.laboki.eclipse.feature.defaultplugin</project>
+		<project>com.laboki.eclipse.plugin.defaultplugin</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.pde.UpdateSiteBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.pde.UpdateSiteNature</nature>
+	</natures>
+</projectDescription>
